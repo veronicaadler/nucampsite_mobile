@@ -66,7 +66,7 @@ const HomeNavigator = createStackNavigator(
                 color: '#fff'
             },
             headerLeft: <Icon
-                    name='name'
+                    name='home'
                     type='font-awesome'
                     iconStyle={styles.stackIcon}
                     onPress={() => navigation.toggleDrawer()}
